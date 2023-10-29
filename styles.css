@@ -1,0 +1,48 @@
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #2a2c2f;
+  font-family: "Inter";
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__logo {
+  margin: auto;
+  margin-top: 34px;
+  margin-bottom: 0;
+}
+
+.header__title {
+  margin-top: 90px;
+  margin-bottom: 0;
+  text-align: center;
+  max-width: 793px;
+  color: #ffffff;
+  line-height: 1;
+  font-size: 96px;
+  font-weight: 900;
+}
+
+.header__subtitle {
+  margin-top: 32px;
+  margin-bottom: 0;
+  text-align: center;
+  max-width: 720px;
+  color: #ffffff;
+  line-height: 1.36;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.header__image {
+  margin-top: 70px;
+  height: 615px;
+  max-width: 984px;
+  padding-bottom: 92px;
+}
