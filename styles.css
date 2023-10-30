@@ -10,10 +10,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 92px;
 }
 
 .header__logo {
-  margin: auto;
   margin-top: 34px;
   margin-bottom: 0;
 }
@@ -44,5 +44,119 @@
   margin-top: 70px;
   height: 615px;
   max-width: 984px;
+}
+
+.intro {
   padding-bottom: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: #ffffff;
+  max-width: 1017px;
+  line-height: 1;
+  font-size: 54px;
+  font-weight: 900;
+}
+
+.intro__quote {
+  margin-top: 0;
+  color: #ffffff;
+  max-width: 722px;
+  height: 136px;
+  line-height: 1.4em;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.intro__text {
+  color: #ffffff;
+  max-width: 722px;
+  line-height: 163%;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.photo-grid {
+  height: 442px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding-bottom: 92px;
+}
+
+.photo-grid__image {
+  max-width: 284px;
+  height: 213px;
+}
+
+.cover {
+  padding-bottom: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 740px;
+}
+
+.cover__background {
+  position: absolute;
+  max-width: 1184px;
+  height: 740px;
+}
+
+.cover__overlay {
+  background: #2a2c2f;
+  opacity: 0.7;
+}
+
+.cover__title {
+  margin-top: 0;
+  margin-bottom: 32px;
+  color: #fffdfd;
+  z-index: 1;
+  line-height: 1em;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.cover__text {
+  margin-top: 0;
+  margin-bottom: 32px;
+  max-width: 280px;
+  max-height: 66px;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.cover__button {
+  width: 198px;
+  height: 48px;
+  background-color: #0278fe;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.footer {
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.footer__copyright {
+  margin: auto;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
 }
