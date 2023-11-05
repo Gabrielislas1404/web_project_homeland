@@ -1,0 +1,29 @@
+.footer {
+  padding-top: 64px;
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.footer__copyright {
+  margin: auto;
+  color: #ffffff;
+  line-height: 100%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 88px;
+  }
+  .footer__copyright {
+    line-height: 114%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 92px;
+  }
+}

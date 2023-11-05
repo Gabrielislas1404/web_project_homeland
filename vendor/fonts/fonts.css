@@ -2,6 +2,7 @@
   src: url(./interweb/Inter-Black.woff) format("woff"),
     url(./interweb/Inter-Black.woff2) format("woff2");
   font-family: "Inter";
+  font-style: normal;
   font-weight: 900;
 }
 
@@ -9,12 +10,14 @@
   src: url(./interweb/Inter-Regular.woff) format("woff"),
     url(./interweb/Inter-Regular.woff2) format("woff2");
   font-family: "Inter";
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
   src: url(./interweb/Inter-SemiBold.woff) format("woff"),
     url(./interweb/Inter-SemiBold.woff2) format("woff2");
   font-family: "Inter";
+  font-style: normal;
   font-weight: 600;
 }

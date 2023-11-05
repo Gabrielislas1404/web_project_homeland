@@ -1,0 +1,92 @@
+.cover {
+  width: 320px;
+  height: 254px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/web_project_homeland/images/coverbackground.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  z-index: 0;
+}
+
+.cover__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.cover__title {
+  width: 288px;
+  height: 35px;
+  margin-top: 46px;
+  margin-bottom: 16px;
+  color: #fffdfd;
+  z-index: 1;
+  line-height: 109%;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.cover__text {
+  width: 280px;
+  height: 48px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+  line-height: 114%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    width: 768px;
+    height: 746px;
+  }
+
+  .cover__title {
+    width: 656px;
+    height: 76px;
+    margin-top: 0;
+    margin-bottom: 32px;
+    line-height: 105%;
+    font-size: 72px;
+  }
+
+  .cover__text {
+    height: 66px;
+    margin-bottom: 32px;
+    line-height: 122%;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    width: 1184px;
+    height: 740px;
+  }
+
+  .cover__overlay {
+    transition: 1s;
+  }
+
+  .cover__overlay:hover {
+    opacity: 0.8;
+  }
+}
