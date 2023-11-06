@@ -6,7 +6,7 @@
 
 💻 💻 💻
 
-#### Este es mi primer segundo en el bootcamp de desarrollo web en "Tripleten". _Realizado únicamente con HTML y CSS._
+#### Este es mi segundo proyecto en el bootcamp de desarrollo web en "Tripleten". _Realizado únicamente con HTML y CSS._
 
 ##### EL proyecto consiste de una página web con 6 secciones.
 
