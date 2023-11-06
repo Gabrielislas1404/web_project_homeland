@@ -10,7 +10,7 @@
 
 ##### EL proyecto consiste de una página web con 6 secciones.
 
-- La mayor parte de esta página web fue desarrollada con Flexbox y la parte a la que llamé "places" (donde se exponen algunas ciudades del mundo, incluyendo por último la ciudad dónde vivo), fue desarrollado con Grid.
+- La mayor parte de esta página web fue desarrollada con Flexbox y la parte a la que llamé "places" (donde se exponen algunas ciudades del mundo), fue desarrollado con Grid.
   El principal enfoque de este proyecto fue desarrollar mi primer diseño responsivo en pantallas con las resoluciones: 320px, 768px y 1280px,utilizando "media queries".
 
 ##### El proyecto ha sido realizado en VSS (Visual Studio Code) y visualizado con mi navegador Google Chrome Versión 116.0.5845.187 (Build oficial) (x86_64)
