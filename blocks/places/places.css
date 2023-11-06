@@ -1,0 +1,20 @@
+.places {
+  padding-bottom: 64px;
+  align-items: center;
+  width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .places {
+    padding-bottom: 92px;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .places {
+    width: 982px;
+    padding-bottom: 0;
+  }
+}
