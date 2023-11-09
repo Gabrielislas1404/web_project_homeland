@@ -70,20 +70,18 @@
   z-index: 1;
   display: flex;
   transition: 0.5s;
-}
-
-.cover__button:hover {
-  background: #0063d2;
-}
-
-.cover__button-text {
-  margin: auto;
+  text-align: center;
+  justify-content: center;
   color: #fff;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.cover__button:hover {
+  background: #0063d2;
 }
 
 @media screen and (min-width: 768px) {
